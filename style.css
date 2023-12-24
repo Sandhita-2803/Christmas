@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d9534f; /* Darker red background color */
+    color: #fff;
+    background-image: url("background.jpeg");
+    background-size: 380px;
+    font-size: large;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#christmas-tree {
+    background: url('christtree.jpg') no-repeat center center;
+    background-size: contain;
+    height: 300px; /* Adjust the size of the Christmas tree */
+    margin-bottom: 30px;
+}
+
+.message {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.toggleButton 
+    {
+      font-family: 'Mountains of Christmas', cursive;
+      cursor: pointer;
+      background-color: lightcyan;
+      color: red;
+      font-size: 20px;
+      padding: 5px 10px 5px 10px;
+      border-radius: 8px;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    #extraContent 
+    {
+      display: none;
+    }
+
+body.snowfall {
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
